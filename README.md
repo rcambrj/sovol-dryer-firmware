@@ -56,7 +56,7 @@ You will need:
 4. Connect your USB to serial adapter to the dryer
 
 	```
-	VCC   => VCC
+	3V3   => VCC
 	GND   => GND
 	SWDIO => TX
 	SWDCK => RX
