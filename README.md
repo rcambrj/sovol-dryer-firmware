@@ -100,4 +100,4 @@ Do you know how to decompile+recompile these files? Please help! It'd be great t
 
 ## Credits
 
-anselor_557733's for [the photo of the inside of the dryer](https://www.printables.com/model/734639-custom-insert-for-sovol-sh01-comgrow-filament-drye). I'm really lazy.
+anselor_557733 for [the photo of the inside of the dryer](https://www.printables.com/model/734639-custom-insert-for-sovol-sh01-comgrow-filament-drye). I'm really lazy.
