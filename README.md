@@ -42,7 +42,14 @@ You will need:
 * A USB to serial adapter (keep reading, some don't work)
 
 > [!IMPORTANT]
-> Success has been reported with a [DSD TECH SH-U09C5 FT232NL](https://www.amazon.nl/-/en/dp/B07WX2DSVB). Unfortunately the [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284) does not work. This might be to do with some difference between the `FT232NL` and the `FT232RL` chips, or not, who knows.
+> Which USB to serial adapter you use is critical.
+>
+> Working:
+> * [DSD TECH SH-U09C5 FT232NL](https://www.amazon.nl/-/en/dp/B07WX2DSVB)
+> 
+> Not working:
+> * [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284)
+> * [BAITE BTE13-007 CP2102 bridge](https://www.taydaelectronics.com/datasheets/files/A-1991.pdf)
 
 
 1. Remove the four screws and remove the dryer tray
@@ -77,7 +84,7 @@ You will need:
 
 	c. Select a baud rate, slower will be more reliable
 
-	d. Download and select a [firmware file](#Firmware%20files)
+	d. Download and select a [firmware file](#firmware%20files)
 
 	e. Configure the COM port to be your USB to serial device (replug it if you're not sure)
 
