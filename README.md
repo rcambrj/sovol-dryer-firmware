@@ -56,7 +56,7 @@ You will need:
 
 	![4 dryer tray screws](./tray-screws.webp)
 
-2. Confirm that the chip on your board is a `HC32F005x6xx`. If the chip does not match, these firmware files will likely cause irreparable damage. Do not proceed.
+2. Confirm that the chip on your board is a `HC32F005x6xx`. The numbering is small and in an awkward location, try taking a photo with your phone. If the chip does not match, these firmware files will likely cause irreparable damage. Do not proceed.
 
 3. Configure your USB to serial adapter to send 3.3V
 
@@ -92,14 +92,11 @@ You will need:
 
 	![HDSC MCU Programmer](./hdsc-mcu-programmer.png)
 
-8. [Report your success / failure](https://github.com/rcambrj/sovol-dryer-firmware/discussions/new?category=reports-of-success-failure), please report the following:
+8. That's it! Now keep reading...
 
-	```
-	* Dryer brand & model: eg. SOVOL SH01
-	* Chip identifier: eg HC32F005x6xx
-	* USB to serial adapter: eg. DSD TECH SH-U09C5
-	```
+### Sharing your findings
 
+Please [report your success / failure](https://github.com/rcambrj/sovol-dryer-firmware/discussions/new?category=reports-of-success-failure&title=It+worked+/+didn't+work&body=*+Dryer+brand+%26%20model:%20eg.%20SOVOL%20SH01%0A*%20Chip%20identifier:%20eg%20HC32F005x6xx%0A*%20USB%20to%20serial%20adapter:%20eg.%20DSD%20TECH%20SH-U09C5) so that we can all learn from it.
 
 ## Improving the firmware further
 
