@@ -76,7 +76,7 @@ You will need:
 
 6. Download the HDSC MCU programmer https://github.com/Xinyuan-LilyGO/T-HC32/tree/main/tools (HDSP ISP.zip)
 
-7. Configure the MCU programmer:
+7. Configure the programmer ([manual in english](./hdsc-mcu-programmer-manual-en.pdf)):
 
 	a. Click the first menu dropdown and select English.
 
