@@ -62,13 +62,13 @@ You will need:
 
 4. Connect your USB to serial adapter to the dryer
 
-	```
-	3V3   => VCC
-	GND   => GND
-	SWDIO => TX
-	SWDCK => RX
-	NRST  => RTS
-	```
+	| SH01 pin | serial adapter pin |
+	|----------|--------------------|
+	| 3V3      | VCC                |
+	| GND      | GND                |
+	| SWDIO    | TX                 |
+	| SWDCK    | RX                 |
+	| NRST     | RTS                |
 
 	![SWD pins](./swd-pins.jpg)
 
