@@ -86,6 +86,7 @@ Pin Out for Flipper Zero
 7. Configure the programmer ([manual in english](./hdsc-mcu-programmer-manual-en.pdf)):
 
 	a. Click the first menu dropdown and select English.
+
 	![image](https://github.com/user-attachments/assets/c3401262-c895-4c6e-a12d-7dba9275eabb)
 
 	b. Configure the MCU as `HC32L110x6xx/HC32F005x6xx`
