@@ -84,7 +84,7 @@ Pin Out for Flipper Zero
 
 6. Download the [HDSC MCU programmer](https://github.com/Xinyuan-LilyGO/T-HC32/blob/main/tools/HDSC%20ISP.zip)
 
-7. Configure the programmer ([manual in english](./hdsc-mcu-programmer-manual-en.pdf)):
+7. Configure HDSC MCU programmer as per the instructions below: ([HDSC MCU Programmer English Manual](./hdsc-mcu-programmer-manual-en.pdf)):
 
 	a. Click the first menu dropdown and select English.
 
