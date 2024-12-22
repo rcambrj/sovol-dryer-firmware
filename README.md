@@ -59,6 +59,7 @@ You will need:
 3. Configure your USB to serial adapter to send 3.3V
 
 4. Connect your USB to serial adapter to the dryer
+
 Pinout For DSD TECH SH-U09C5 FT232NL
 | SH01 pin | serial adapter pin |
 |----------|--------------------|
