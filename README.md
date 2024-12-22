@@ -78,7 +78,7 @@ Pin Out for Flipper Zero
 | SWDIO    | Pin 13(TX)         |
 | SWDCK    | Ping 14(RX)        |
 | NRST     | Pin 2(A7)          |
-<img src="https://github.com/user-attachments/assets/a3a1a3ad-d195-4e77-aad3-2fe450fcdab6" alt="FlipperPinOut" width="250" height="400">
+<img src="https://github.com/user-attachments/assets/9df75674-4a47-44a4-a4e5-48d0df4259cc" alt="FlipperPinOut" width="250" height="400">
 
 5. Connect your USB to serial adapter to your Windows machine.
 
