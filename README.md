@@ -99,7 +99,7 @@ Pin Out for Flipper Zero
 	f. Push the `Upload` button (the left one) to download the current firmware from the chip (you will be prompted for a location to save the file)
 
  	g. Push the `Execute` button (the right one) to write the selected firmware to the chip
-
+	![image](https://github.com/user-attachments/assets/607346a8-5554-4a23-a255-7bee1ebc0e45)
 	![HDSC MCU Programmer](./hdsc-mcu-programmer.png)
 
 9. That's it! Now keep reading...
