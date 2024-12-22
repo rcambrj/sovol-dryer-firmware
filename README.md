@@ -1,13 +1,11 @@
 # SOVOL / COMGROW dryer firmware
 
-The SOVOL SH01 comes with awkward firmware which runs for a maximum of 12 hours at a time, at which point the device switches the heater off. The heater must be run with the box lid open, to allow humidity to escape. Likewise the box lid must then be closed at the end of the drying process.
-
-When drying spools of filament, you might want to run the dryer for a day or two just to be sure, but if the limit is set to 12 hours, you're required to reset the device quite frequently, which requires remembering or setting alarms. If you forget to reset the device within 12 hours, as the heater switches off and the box lid remains open, you run the risk of the filament capturing humidity
-again and having to repeat the drying process.
+The SOVOL SH01 has default firmware limitations that only allows the heater to run for a maximum of 12 hours. After this, the heater automatically shuts off. During operation, the box lid must remain open to release humidity, but it needs to be closed once the drying process is complete.
+Drying filament spools can take a day or more to ensure proper results. However, the 12-hour limit requires frequent manual resets, which can be inconvenient and easy to forget. If the heater shuts off and the lid is left open, the filament may reabsorb humidity, forcing you to restart the drying process.
 
 Increasing this runtime limit is the key to happy filament drying.
 
-![SOVOL SH01](./sovol-sh01.jpg)
+<img src="./sovol-sh01.jpg" alt="SOVOL SH01" width="300" height="300">
 
 ## Firmware files
 
@@ -32,67 +30,79 @@ This is the original firmware.
 ## Flashing your dryer
 
 > [!CAUTION]
-> Attempting to program your dryer may cause irreparable damage. I make no guarantees. Proceed at your own risk.
+> Attempting to program your dryer may cause irreparable damage if done incorrectly. I'm not liable for any damage you may do to your device. Proceed at your own risk.
 
 You will need:
 
 * A SOVOL SH01 (SH02 may also work - check the chip)
 * A Phillips screwdriver
-* A Windows PC (or VM with access to USB)
-* A USB to serial adapter (keep reading, some don't work)
+* A PC (or VM with access to USB)
+* A USB to serial adapter (See suggested adapters below. Some adapters have been reported to not work work)
 
 > [!IMPORTANT]
 > Which USB to serial adapter you use is critical.
 >
 > Working:
-> * [DSD TECH SH-U09C5 FT232NL](https://www.amazon.nl/-/en/dp/B07WX2DSVB)
+> * [DSD TECH SH-U09C5 FT232NL](https://a.co/d/hOHlUrl)
+> * [Flipper Zero](https://shop.flipperzero.one/)
 > 
 > Not working:
 > * [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284)
 > * [BAITE BTE13-007 CP2102 bridge](https://www.taydaelectronics.com/datasheets/files/A-1991.pdf)
 
-
 1. Remove the four screws and remove the dryer tray
 
-	![4 dryer tray screws](./tray-screws.webp)
+<img src="./tray-screws.webp" alt="4 dryer tray screws" width="500" height="450">
 
-2. Confirm that the chip on your board is a `HC32F005x6xx`. The numbering is small and in an awkward location, try taking a photo with your phone. If the chip does not match, these firmware files will likely cause irreparable damage. Do not proceed.
+2. Confirm that the chip on your board is a `HC32F005x6xx`. The numbering is small and in an awkward location, try taking a photo with your phone.** If the chip does not match, these firmware files will likely cause irreparable damage. Do not proceed.**
 
 3. Configure your USB to serial adapter to send 3.3V
 
 4. Connect your USB to serial adapter to the dryer
+Pinout For DSD TECH SH-U09C5 FT232NL
+| SH01 pin | serial adapter pin |
+|----------|--------------------|
+| 3V3      | VCC                |
+| GND      | GND                |
+| SWDIO    | TX                 |
+| SWDCK    | RX                 |
+| NRST     | RTS                |
+<img src="./swd-pins.jpg" alt="SWD pins" width="350" height="300">
 
-	| SH01 pin | serial adapter pin |
-	|----------|--------------------|
-	| 3V3      | VCC                |
-	| GND      | GND                |
-	| SWDIO    | TX                 |
-	| SWDCK    | RX                 |
-	| NRST     | RTS                |
-
-	![SWD pins](./swd-pins.jpg)
+Pin Out for Flipper Zero
+| SH01 pin |  Flipper Zero pin  |
+|----------|--------------------|
+| 3V3      | Pin 9(3V3)         |
+| GND      | Pin 11(GND         |
+| SWDIO    | Pin 13(TX)         |
+| SWDCK    | Ping 14(RX)        |
+| NRST     | Pin 2(A7)          |
+<img src="https://github.com/user-attachments/assets/a3a1a3ad-d195-4e77-aad3-2fe450fcdab6" alt="FlipperPinOut" width="250" height="400">
 
 5. Connect your USB to serial adapter to your Windows machine.
 
-6. Download the HDSC MCU programmer https://github.com/Xinyuan-LilyGO/T-HC32/tree/main/tools (HDSP ISP.zip)
+6. Download the [HDSC MCU programmer](https://github.com/Xinyuan-LilyGO/T-HC32/blob/main/tools/HDSC%20ISP.zip)
 
 7. Configure the programmer ([manual in english](./hdsc-mcu-programmer-manual-en.pdf)):
 
 	a. Click the first menu dropdown and select English.
+	![image](https://github.com/user-attachments/assets/c3401262-c895-4c6e-a12d-7dba9275eabb)
 
 	b. Configure the MCU as `HC32L110x6xx/HC32F005x6xx`
 
-	c. Select a baud rate, slower will be more reliable
+	c. Select a baud rate, slower will be more reliable (I used 9600)
 
 	d. Download and select a [firmware file](#firmware%20files)
 
-	e. Configure the COM port to be your USB to serial device (replug it if you're not sure)
+	e. Configure the COM port to be your USB to serial device (unplug/replug it in if you're not sure which is the correct port)
 
-	f. Push the `Upload` button (the left one) to download the current firmware from the chip (you will be prompted for a location to save the file) or the `Execute` button (the right one) to write the selected firmware to the chip
+	f. Push the `Upload` button (the left one) to download the current firmware from the chip (you will be prompted for a location to save the file)
+
+ 	g. Push the `Execute` button (the right one) to write the selected firmware to the chip
 
 	![HDSC MCU Programmer](./hdsc-mcu-programmer.png)
 
-8. That's it! Now keep reading...
+9. That's it! Now keep reading...
 
 ### Sharing your findings
 
