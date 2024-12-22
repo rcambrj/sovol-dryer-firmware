@@ -114,5 +114,6 @@ Please [report your success / failure](https://github.com/rcambrj/sovol-dryer-fi
 Do you know how to decompile+recompile these files? Please help! It'd be great to further improve them.
 
 ## Credits
+- [anselor_557733](https://www.printables.com/@anselor_557733) for [the photo of the inside of the dryer](https://www.printables.com/model/734639-custom-insert-for-sovol-sh01-comgrow-filament-drye).
+- [rcambrj](https://github.com/rcambrj) for [the original repository ](https://github.com/rcambrj/sovol-dryer-firmware)
 
-anselor_557733 for [the photo of the inside of the dryer](https://www.printables.com/model/734639-custom-insert-for-sovol-sh01-comgrow-filament-drye). I'm really lazy.
