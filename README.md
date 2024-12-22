@@ -80,7 +80,7 @@ Pin Out for Flipper Zero
 | NRST     | Pin 2(A7)          |
 <img src="https://github.com/user-attachments/assets/9df75674-4a47-44a4-a4e5-48d0df4259cc" alt="FlipperPinOut" width="250" height="400">
 
-5. Connect your USB to serial adapter to your Windows machine.
+5. Connect your USB to serial adapter to your PC.
 
 6. Download the [HDSC MCU programmer](https://github.com/Xinyuan-LilyGO/T-HC32/blob/main/tools/HDSC%20ISP.zip)
 
