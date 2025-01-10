@@ -45,7 +45,7 @@ You will need:
 > Which USB to serial adapter you use is critical.
 >
 > Working:
-> * [DSD TECH SH-U09C5 FT232NL](https://www.amazon.nl/-/en/dp/B07WX2DSVB)
+> * [DSD TECH SH-U09C5 FT232NL](https://amzn.to/3BZ6hYX) [affiliate link]
 > 
 > Not working:
 > * [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284)
