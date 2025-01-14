@@ -41,6 +41,8 @@ You will need:
 * A Windows PC (or VM with access to USB)
 * A USB to serial adapter (keep reading, some don't work)
 
+### Serial adapters
+
 > [!IMPORTANT]
 > Which USB to serial adapter you use is critical.
 >
@@ -58,7 +60,6 @@ You will need:
 > [amazon.co.uk](https://amzn.to/40sdKsO) |
 > [amazon.com](https://amzn.to/40t351c)
 >
-> 
 > Not working:
 > * [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284)
 > * [BAITE BTE13-007 CP2102 bridge](https://www.taydaelectronics.com/datasheets/files/A-1991.pdf)
