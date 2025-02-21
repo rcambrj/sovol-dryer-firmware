@@ -23,6 +23,8 @@ This is the original firmware.
 
 ### fw-48h.hex
 
+This is the firmware which ships with some later models.
+
 [download](./fw-48h.hex)
 
 * push-and-hold to power on
@@ -30,6 +32,8 @@ This is the original firmware.
 * runtime: 6 - 48h in 2h increments (6h default)
 
 ### fw-72h.hex
+
+This is a modified firmware with sensible defaults. Push the Ⓜ️ button 3 times to start, no need to keep pushing ⬆️. This is the one I run.
 
 [download](./fw-72h.hex)
 
