@@ -27,7 +27,15 @@ This is the original firmware.
 
 * push-and-hold to power on
 * temperature: 40C, 45C, 50C (default)
-* runtime: 6h (default), 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h, 24h, 26h, 28h, 30h, 32h, 34h, 36h, 38h, 40h, 42h, 44h, 46h, 48h
+* runtime: 6 - 48h in 2h increments (6h default)
+
+### fw-72h.hex
+
+[download](./fw-72h.hex)
+
+* push-and-hold to power on
+* temperature: 40C, 45C, 50C (default)
+* runtime: 6 - 72h in 2h increments (72h default)
 
 ## Flashing your dryer
 
