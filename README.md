@@ -126,10 +126,6 @@ You will need:
 
 Please [report your success / failure](https://github.com/rcambrj/sovol-dryer-firmware/discussions/new?category=reports-of-success-failure&title=It+worked+/+didn't+work&body=*+Dryer+brand+%26%20model:%20eg.%20SOVOL%20SH01%0A*%20Chip%20identifier:%20eg%20HC32F005x6xx%0A*%20USB%20to%20serial%20adapter:%20eg.%20DSD%20TECH%20SH-U09C5) so that we can all learn from it.
 
-## Improving the firmware further
-
-Do you know how to decompile+recompile these files? Please help! It'd be great to further improve them.
-
 ## Credits
 
 anselor_557733 for [the photo of the inside of the dryer](https://www.printables.com/model/734639-custom-insert-for-sovol-sh01-comgrow-filament-drye). I'm really lazy.
