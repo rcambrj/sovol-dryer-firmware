@@ -11,35 +11,38 @@ Increasing this runtime limit is the key to happy filament drying.
 
 ## Firmware files
 
-### fw.hex
+### fw-v1.hex
 
-[download](./fw.hex)
+* [download fw-v1.hex](./fw-v1.hex)
 
 This is the original firmware.
 
 * single push to power on
 * temperature: 40C (default), 45C, 50C
-* runtime: 6h (default), 7h, 8h, 9h, 10h, 11h, 12h
+* runtime: 6 - 12h in 1h increments (6h default)
 
-### fw-48h.hex
+### fw-v2.hex
+
+
+* [download fw-v2.hex](./fw-v2.hex)
 
 This is the firmware which ships with some later models.
-
-[download](./fw-48h.hex)
 
 * push-and-hold to power on
 * temperature: 40C, 45C, 50C (default)
 * runtime: 6 - 48h in 2h increments (6h default)
 
-### fw-72h.hex
+### fw-72h-*c.hex
+
+* [download fw-72h-50c.hex](./fw-72h-50c.hex)
+* [download fw-72h-45c.hex](./fw-72h-45c.hex)
+* [download fw-72h-40c.hex](./fw-72h-40c.hex)
 
 This is a modified firmware with sensible defaults. Push the Ⓜ️ button 3 times to start, no need to keep pushing ⬆️. This is the one I run.
 
-[download](./fw-72h.hex)
-
 * push-and-hold to power on
-* temperature: 40C, 45C, 50C (default)
-* runtime: 6 - 72h in 2h increments (72h default)
+* temperature: 40C, 45C, 50C (see filename for default)
+* runtime: 6 - 72h in 8h increments (72h default)
 
 ## Flashing your dryer
 
