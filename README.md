@@ -62,7 +62,7 @@ You will need:
 > Which USB to serial adapter you use is critical.
 >
 > Working:
-> * DSD TECH SH-U09C5 FT232NL - Amazon affiliate links:
+> * DSD TECH SH-U09C5 FT232NL:
 > [amazon.com.au](https://amzn.to/3Puw7qN) |
 > [amazon.ca](https://amzn.to/4fSzna0) |
 > [amazon.de](https://amzn.to/4j7NfQK) |
@@ -73,7 +73,7 @@ You will need:
 > [amazon.pl](https://amzn.to/40qX1WJ) |
 > [amazon.se](https://amzn.to/3PrbuMe) |
 > [amazon.co.uk](https://amzn.to/40sdKsO) |
-> [amazon.com](https://amzn.to/40t351c)
+> [amazon.com](https://amzn.to/40t351c) (affiliate links, cookie valid for 24h)
 >
 > Not working:
 > * [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284)
