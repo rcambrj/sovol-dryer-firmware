@@ -42,7 +42,7 @@ This is a modified firmware with sensible defaults. Push the Ⓜ️ button 3 tim
 
 * push-and-hold to power on
 * temperature: 40C, 45C, 50C (see filename for default)
-* runtime: 6 - 72h in 8h increments (72h default)
+* runtime: 8 - 72h in 8h increments (72h default)
 
 ## Flashing your dryer
 
