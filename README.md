@@ -73,7 +73,7 @@ You will need:
 > [amazon.pl](https://amzn.to/40qX1WJ) |
 > [amazon.se](https://amzn.to/3PrbuMe) |
 > [amazon.co.uk](https://amzn.to/40sdKsO) |
-> [amazon.com](https://amzn.to/40t351c) (affiliate links, cookie valid for 24h)
+> [amazon.com](https://amzn.to/40t351c) (affiliate links, cookie valid for any purchases within 24h)
 >
 > Not working:
 > * [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284)
