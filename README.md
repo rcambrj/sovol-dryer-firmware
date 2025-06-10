@@ -7,7 +7,7 @@ again and having to repeat the drying process.
 
 Increasing this runtime limit is the key to happy filament drying.
 
-![SOVOL SH01](./sovol-sh01.jpg)
+<img src="./sovol-sh01.jpg" width="200" alt="SOVOL SH01" />
 
 ## Firmware files
 
@@ -68,12 +68,16 @@ You will need:
 > [amazon.de](https://amzn.to/4j7NfQK) |
 > [amazon.es](https://amzn.to/40oVKj4) |
 > [amazon.fr](https://amzn.to/3Wa2U8g) |
-> [amazon.it](https://amzn.to/4gPVak8) |
+> [amazon.it](https://amzn.to/3FywY8F) |
 > [amazon.nl](https://amzn.to/3BZ6hYX) |
 > [amazon.pl](https://amzn.to/40qX1WJ) |
 > [amazon.se](https://amzn.to/3PrbuMe) |
 > [amazon.co.uk](https://amzn.to/40sdKsO) |
 > [amazon.com](https://amzn.to/40t351c) (affiliate links, cookie valid for any purchases within 24h)
+> * [Flipper Zero](https://shop.flipperzero.one/)
+> * AliExpress CH340-based [with RTS pin soldered](https://github.com/rcambrj/sovol-dryer-firmware/discussions/9#discussion-8419312)
+>
+>   <img src="aliexpress-ch340.png" width="200" alt="stock photo of an AliExpress CH340-based USB to serial adapter" />
 >
 > Not working:
 > * [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284)
@@ -82,7 +86,7 @@ You will need:
 
 1. Remove the four screws and remove the dryer tray
 
-	![4 dryer tray screws](./tray-screws.webp)
+	<img src="./tray-screws.webp" width="400" alt="4 dryer tray screws" />
 
 2. Confirm that the chip on your board is a `HC32F005x6xx`. The numbering is small and in an awkward location, try taking a photo with your phone. If the chip does not match, these firmware files will likely cause irreparable damage. Do not proceed.
 
@@ -90,15 +94,15 @@ You will need:
 
 4. Connect your USB to serial adapter to the dryer
 
-	| SH01 pin | serial adapter pin |
-	|----------|--------------------|
-	| 3V3      | VCC                |
-	| GND      | GND                |
-	| SWDIO    | TX                 |
-	| SWDCK    | RX                 |
-	| NRST     | RTS                |
+	| SH01 pin | serial adapter pin | Flipper Zero pin |
+	|----------|--------------------|------------------|
+	| 3V3      | VCC                | Pin 9 (3V3)      |
+	| GND      | GND                | Pin 11 (GND)     |
+	| SWDIO    | TX                 | Pin 13 (TX)      |
+	| SWDCK    | RX                 | Pin 14 (RX)      |
+	| NRST     | RTS                | Pin 2 (A7)       |
 
-	![SWD pins](./swd-pins.jpg)
+	<img src="./swd-pins.jpg" width="400" alt="SWD pins"/>
 
 5. Connect your USB to serial adapter to your Windows machine.
 
@@ -107,6 +111,8 @@ You will need:
 7. Configure the programmer ([manual in english](./hdsc-mcu-programmer-manual-en.pdf)):
 
 	a. Click the first menu dropdown and select English.
+
+	  <img src="./hdsc-mcu-programmer-menu.png" alt="HDSC MCU Programmer menu to select English" />
 
 	b. Configure the MCU as `HC32L110x6xx/HC32F005x6xx`
 
@@ -118,7 +124,9 @@ You will need:
 
 	f. Push the `Upload` button (the left one) to download the current firmware from the chip (you will be prompted for a location to save the file) or the `Execute` button (the right one) to write the selected firmware to the chip
 
-	![HDSC MCU Programmer](./hdsc-mcu-programmer.png)
+	<img src="./hdsc-mcu-programmer-zh.png" alt="HDSC MCU Programmer in Chinese" />
+
+	<img src="./hdsc-mcu-programmer-en.png" alt="HDSC MCU Programmer in English">
 
 8. That's it! Now keep reading...
 
