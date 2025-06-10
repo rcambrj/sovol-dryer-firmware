@@ -122,7 +122,9 @@ You will need:
 
 	e. Configure the COM port to be your USB to serial device (replug it if you're not sure)
 
-	f. Push the `Upload` button (the left one) to download the current firmware from the chip (you will be prompted for a location to save the file) or the `Execute` button (the right one) to write the selected firmware to the chip
+	f. Select the `Erase`, `Blank Check` and `Program` checkboxes
+
+	g. Push the `Upload` button (the left one) to download the current firmware from the chip (you will be prompted for a location to save the file) or the `Execute` button (the right one) to write the selected firmware to the chip
 
 	<img src="./hdsc-mcu-programmer-zh.png" alt="HDSC MCU Programmer in Chinese" />
 
