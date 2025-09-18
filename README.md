@@ -62,18 +62,19 @@ You will need:
 > Which USB to serial adapter you use is critical.
 >
 > Working:
-> * DSD TECH SH-U09C5 FT232NL:
-> [amazon.com.au](https://www.amazon.com.au/DSD-TECH-SH-U07A-Adatper-Support/dp/B09296334D) |
-> [amazon.ca](https://www.amazon.ca/DSD-TECH-SH-U09C5-Converter-Support/dp/B07WX2DSVB) |
-> [amazon.de](https://www.amazon.de/DSD-TECH-SH-U09C5-Konverterkabel-Unterst%C3%BCtzung/dp/B07WX2DSVB) |
-> [amazon.es](https://www.amazon.es/DSD-TECH-SH-U09C5-convertidor-Soporte/dp/B07WX2DSVB) |
-> [amazon.fr](https://www.amazon.fr/DSD-TECH-SH-U09C5-Conversion-Charge/dp/B07WX2DSVB) |
-> [amazon.it](https://www.amazon.it/-/en/TECH-SH-U09C5-Converter-Cable-Support/dp/B07WX2DSVB) |
-> [amazon.nl](https://www.amazon.nl/-/en/dp/B07WX2DSVB) |
-> [amazon.pl](https://www.amazon.pl/DSD-TECH-SH-U09C5-konwerter-obsluga/dp/B07WX2DSVB) |
-> [amazon.se](https://www.amazon.se/DSD-TECH-SH-U09C5-omvandlare-kabel/dp/B07WX2DSVB) |
-> [amazon.co.uk](https://www.amazon.co.uk/DSD-TECH-SH-U09C5-Converter-Support/dp/B07WX2DSVB) |
-> [amazon.com](https://www.amazon.com/DSD-TECH-SH-U09C5-Converter-Support/dp/B07WX2DSVB) | affiliate links, cookie valid for any purchases within 24h: [amazon.com](https://amzn.to/40t351c)
+> * DSD TECH SH-U09C5 FT232NL: (affiliate links, cookie valid for any purchases within 24h)
+>
+>   * [amazon.com.au](https://www.amazon.com.au/-/dp/B09296334D)
+>   * [amazon.ca](https://www.amazon.ca/-/dp/B07WX2DSVB)
+>   * [amazon.de](https://www.amazon.de/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/4nk9wfR)
+>   * [amazon.es](https://www.amazon.es/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/4pzjf3y)
+>   * [amazon.fr](https://www.amazon.fr/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/4guZ2aJ)
+>   * [amazon.it](https://www.amazon.it/-/en/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/3It4gr6)
+>   * [amazon.nl](https://www.amazon.nl/-/en/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/4n3jsKw)
+>   * [amazon.pl](https://www.amazon.pl/-/dp/B07WX2DSVB)
+>   * [amazon.se](https://www.amazon.se/-/dp/B07WX2DSVB)
+>   * [amazon.co.uk](https://www.amazon.co.uk/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/47Q4rXM)
+>   * [amazon.com](https://www.amazon.com/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/40t351c)
 > * [Flipper Zero](https://shop.flipperzero.one/)
 > * AliExpress CH340-based [with RTS pin soldered](https://github.com/rcambrj/sovol-dryer-firmware/discussions/9#discussion-8419312)
 >
