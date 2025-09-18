@@ -63,17 +63,17 @@ You will need:
 >
 > Working:
 > * DSD TECH SH-U09C5 FT232NL:
-> [amazon.com.au](https://amzn.to/3Puw7qN) |
-> [amazon.ca](https://amzn.to/4fSzna0) |
-> [amazon.de](https://amzn.to/4j7NfQK) |
-> [amazon.es](https://amzn.to/40oVKj4) |
-> [amazon.fr](https://amzn.to/3Wa2U8g) |
-> [amazon.it](https://amzn.to/3FywY8F) |
-> [amazon.nl](https://amzn.to/3BZ6hYX) |
-> [amazon.pl](https://amzn.to/40qX1WJ) |
-> [amazon.se](https://amzn.to/3PrbuMe) |
-> [amazon.co.uk](https://amzn.to/40sdKsO) |
-> [amazon.com](https://amzn.to/40t351c) (affiliate links, cookie valid for any purchases within 24h)
+> [amazon.com.au](https://www.amazon.com.au/DSD-TECH-SH-U07A-Adatper-Support/dp/B09296334D) |
+> [amazon.ca](https://www.amazon.ca/DSD-TECH-SH-U09C5-Converter-Support/dp/B07WX2DSVB) |
+> [amazon.de](https://www.amazon.de/DSD-TECH-SH-U09C5-Konverterkabel-Unterst%C3%BCtzung/dp/B07WX2DSVB) |
+> [amazon.es](https://www.amazon.es/DSD-TECH-SH-U09C5-convertidor-Soporte/dp/B07WX2DSVB) |
+> [amazon.fr](https://www.amazon.fr/DSD-TECH-SH-U09C5-Conversion-Charge/dp/B07WX2DSVB) |
+> [amazon.it](https://www.amazon.it/-/en/TECH-SH-U09C5-Converter-Cable-Support/dp/B07WX2DSVB) |
+> [amazon.nl](https://www.amazon.nl/-/en/dp/B07WX2DSVB) |
+> [amazon.pl](https://www.amazon.pl/DSD-TECH-SH-U09C5-konwerter-obsluga/dp/B07WX2DSVB) |
+> [amazon.se](https://www.amazon.se/DSD-TECH-SH-U09C5-omvandlare-kabel/dp/B07WX2DSVB) |
+> [amazon.co.uk](https://www.amazon.co.uk/DSD-TECH-SH-U09C5-Converter-Support/dp/B07WX2DSVB) |
+> [amazon.com](https://www.amazon.com/DSD-TECH-SH-U09C5-Converter-Support/dp/B07WX2DSVB) | affiliate links, cookie valid for any purchases within 24h: [amazon.com](https://amzn.to/40t351c)
 > * [Flipper Zero](https://shop.flipperzero.one/)
 > * AliExpress CH340-based [with RTS pin soldered](https://github.com/rcambrj/sovol-dryer-firmware/discussions/9#discussion-8419312)
 >
