@@ -66,14 +66,14 @@ You will need:
 >
 >   * [amazon.com.au](https://www.amazon.com.au/-/dp/B09296334D)
 >   * [amazon.ca](https://www.amazon.ca/-/dp/B07WX2DSVB)
->   * [amazon.de](https://www.amazon.de/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/4nk9wfR)
->   * [amazon.es](https://www.amazon.es/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/4pzjf3y)
->   * [amazon.fr](https://www.amazon.fr/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/4guZ2aJ)
->   * [amazon.it](https://www.amazon.it/-/en/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/3It4gr6)
->   * [amazon.nl](https://www.amazon.nl/-/en/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/4n3jsKw)
+>   * [amazon.de](https://www.amazon.de/-/dp/B07WX2DSVB)
+>   * [amazon.es](https://www.amazon.es/-/dp/B07WX2DSVB)
+>   * [amazon.fr](https://www.amazon.fr/-/dp/B07WX2DSVB)
+>   * [amazon.it](https://www.amazon.it/-/en/-/dp/B07WX2DSVB)
+>   * [amazon.nl](https://www.amazon.nl/-/en/dp/B07WX2DSVB)
 >   * [amazon.pl](https://www.amazon.pl/-/dp/B07WX2DSVB)
 >   * [amazon.se](https://www.amazon.se/-/dp/B07WX2DSVB)
->   * [amazon.co.uk](https://www.amazon.co.uk/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/47Q4rXM)
+>   * [amazon.co.uk](https://www.amazon.co.uk/-/dp/B07WX2DSVB)
 >   * [amazon.com](https://www.amazon.com/-/dp/B07WX2DSVB) | [affiliate link](https://amzn.to/40t351c)
 > * [Flipper Zero](https://shop.flipperzero.one/)
 > * AliExpress CH340-based [with RTS pin soldered](https://github.com/rcambrj/sovol-dryer-firmware/discussions/9#discussion-8419312)
@@ -84,16 +84,16 @@ You will need:
 > * [Adafruit FTDI Friend FT232RL](https://www.adafruit.com/product/284)
 > * [BAITE BTE13-007 CP2102 bridge](https://www.taydaelectronics.com/datasheets/files/A-1991.pdf)
 
-
-1. Remove the four screws and remove the dryer tray
+1. Disconnect your dryer from the power. During the flashing process the device MUST NOT be connected to its power supply.
+2. Remove the four screws and remove the dryer tray
 
 	<img src="./tray-screws.webp" width="400" alt="4 dryer tray screws" />
 
-2. Confirm that the chip on your board is a `HC32F005x6xx`. The numbering is small and in an awkward location, try taking a photo with your phone. If the chip does not match, these firmware files will likely cause irreparable damage. Do not proceed.
+3. Confirm that the chip on your board is a `HC32F005x6xx`. The numbering is small and in an awkward location, try taking a photo with your phone. If the chip does not match, these firmware files will likely cause irreparable damage. Do not proceed.
 
-3. Configure your USB to serial adapter to send 3.3V
+4. Configure your USB to serial adapter to send 3.3V
 
-4. Connect your USB to serial adapter to the dryer
+5. Connect your USB to serial adapter to the dryer
 
 	| SH01 pin | serial adapter pin | Flipper Zero pin |
 	|----------|--------------------|------------------|
@@ -105,11 +105,11 @@ You will need:
 
 	<img src="./swd-pins.jpg" width="400" alt="SWD pins"/>
 
-5. Connect your USB to serial adapter to your Windows machine.
+6. Connect your USB to serial adapter to your Windows machine.
 
-6. Download the HDSC MCU programmer https://github.com/Xinyuan-LilyGO/T-HC32/tree/main/tools (HDSP ISP.zip)
+7. Download the HDSC MCU programmer https://github.com/Xinyuan-LilyGO/T-HC32/tree/main/tools (HDSP ISP.zip)
 
-7. Configure the programmer ([manual in english](./hdsc-mcu-programmer-manual-en.pdf)):
+8. Configure the programmer ([manual in english](./hdsc-mcu-programmer-manual-en.pdf)):
 
 	a. Click the first menu dropdown and select English.
 
@@ -131,7 +131,7 @@ You will need:
 
 	<img src="./hdsc-mcu-programmer-en.png" alt="HDSC MCU Programmer in English">
 
-8. That's it! Now keep reading...
+9. That's it! Now keep reading...
 
 ### Sharing your findings
 
