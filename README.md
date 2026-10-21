@@ -93,7 +93,11 @@ You will need:
 
 4. Configure your USB to serial adapter to send 3.3V
 
-5. Connect your USB to serial adapter to the dryer
+5. Connect your USB to serial adapter to the dryer. Choose one of the following methods.
+
+	#### Option A: existing SWD header
+
+	This is the easiest method. Some users report success with this method, others inexplicably don't. Try this one first as it doesn't require any soldering.
 
 	| SH01 pin | serial adapter pin | Flipper Zero pin |
 	|----------|--------------------|------------------|
@@ -104,6 +108,26 @@ You will need:
 	| NRST     | RTS                | Pin 2 (A7)       |
 
 	<img src="./swd-pins.jpg" width="400" alt="SWD pins"/>
+
+	#### Option B: UART P35+P36 connection
+
+	If the SWD header method fails, the HC32 also supports UART ISP through `P35` and `P36` (MCU pins 2 and 3). This requires soldering wires to the board. Soldering directly to the HC32 is quite tricky, but luckily, there are two LEDs connected to the relevant pins which make for easier soldering.
+
+	| SH01 pin | accessible at | serial adapter pin |
+	|----------|---------------|--------------------|
+	| 3V3      | 3V3 header    | VCC                |
+	| GND      | GND header    | GND                |
+	| P35 (pin 2) | left pad of D8 or D5 | RX             |
+	| P36 (pin 3) | left pad of D9 or D6 | TX             |
+	| NRST     | NRST header   | RTS                |
+
+	In order to use the diode pads, the board must be entirely removed from the device. On the LCD side of the board, orient the board so the `D8`, `D9`, `D5`, or `D6` marking is readable; "left" means the left pad in that orientation. The photos below show the confirmed D8/D9 connection.
+
+	<img src="./uart-p35-p36-d8.jpg" width="400" alt="Wire soldered to the left pad of D8 for P35"/>
+
+	<img src="./uart-p35-p36-d9.jpg" width="400" alt="Wire soldered to the left pad of D9 for P36"/>
+
+	<img src="./uart-p35-p36-overview.jpg" width="400" alt="Overview of the direct UART ISP wiring on the display board"/>
 
 6. Connect your USB to serial adapter to your Windows machine.
 
